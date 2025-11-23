@@ -32,4 +32,35 @@ nmap --version
 ```bash
 pip install python-nmap
 ```
+## Usage
+Run the script:
+```bash
+python port_scanner.py
+```
+
+Modify the Target: 
+For demonstration and learning purposes, this project uses the safe, publicly provided test IP from Nmap:
+```bash
+45.33.32.156
+```
+This IP is officially published by Nmap for beginner-friendly scanning practice and is safe to use in training projects.
+```bash
+target = "45.33.32.156"
+```
+## **IMPORTANT**
+**You should only scan IP addresses that you own or have explicit permission to scan.
+Unauthorized scanning of networks or systems you do not control may violate laws or terms of service.
+Always follow safe and ethical cybersecurity practices.**
+
+## Output
+```bash
+Host: 45.33.32.156 (scanme.nmap.org)
+State: up
+Protocol: tcp
+Port: 22        State: open
+Port: 80        State: open
+Port: 9929      State: open
+Port: 31337     State: open
+```
+
 
