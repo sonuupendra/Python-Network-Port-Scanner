@@ -26,3 +26,7 @@ Ensure you check **Add Nmap to PATH** during installation.
 Verify installation:
 ```bash
 nmap --version
+
+### 2. Install python-nmap
+pip install python-nmap
+
